@@ -55,20 +55,29 @@ nav ul li a:hover{
 
 .social{
     display:flex;
-    gap:10px;
+    gap:20px;
 }
 
 .social img{
     width:25px;
     height:25px;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
 }
-.social img{
-    width:20px;
+
+.twitter,
+.facebook,
+.pinterest{
     filter: invert(48%) sepia(95%) saturate(2000%) hue-rotate(5deg);
+}
+
+.googleplus{
+    filter:none !important;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
+
+.social img:last-child{
+    margin-right:40px;
 }
 
 .logo img{
