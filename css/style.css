@@ -14,7 +14,8 @@ header{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:0 80px;
+    padding:0 5%;
+    flex-wrap:wrap;
 }
 
 .logo{
@@ -55,26 +56,46 @@ nav ul li a:hover{
 
 .social{
     display:flex;
-    gap:10px;
+    gap:20px;
 }
 
 .social img{
     width:25px;
     height:25px;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
 }
-.social img{
-    width:20px;
+
+.twitter,
+.facebook,
+.pinterest{
     filter: invert(48%) sepia(95%) saturate(2000%) hue-rotate(5deg);
+}
+
+.googleplus{
+    filter:none !important;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
+
+.social img:last-child{
+    margin-right:40px;
 }
 
 .logo img{
     width:70px;
     margin-bottom:-5px;
     filter: invert(1);
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.hero{
+    background-size:cover;
+    background-position:center;
+    min-height:100vh;
 }
 
 @font-face {
@@ -84,4 +105,47 @@ nav ul li a:hover{
 @font-face {
     font-family: myriad;
     src: url(./MYRIADPRO-REGULAR.OTF);
+}
+
+@media (max-width:768px){
+
+    header{
+        height:auto;
+        flex-direction:column;
+        gap:15px;
+        padding:15px;
+    }
+
+    .logo{
+        font-size:32px;
+        text-align:center;
+    }
+
+    .mountain{
+        width:60px;
+        top:-15px;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    nav ul{
+        display:flex;
+        flex-direction:row;  /* column hata diya */
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    nav ul li a{
+        font-size:16px;
+    }
+
+    .social{
+        justify-content:center;
+        gap:15px;
+    }
+
+    .social img:last-child{
+        margin-right:0;
+    }
 }
