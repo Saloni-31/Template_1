@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Template_1</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&display=swap" rel="stylesheet">
         <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <script src="./js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -26,11 +29,169 @@
          </nav>
 
         <div class="social">
-            <img src="icons/twitter.svg">
-            <img src="icons/facebook.svg">
-            <img src="icons/google-plus.svg">
-            <img src="icons/pinterest.svg">
+            <img src="icons/twitter.svg" class="twitter">
+            <img src="icons/facebook.svg" class="facebook">
+            <img src="icons/google-plus.svg" class="googleplus">
+            <img src="icons/pinterest.svg" class="pinterest">
         </div>
         </header>
+
+        <section class="hero">
+            <div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!--slide 1-->
+                    <div class="carousel-item active">
+                    <img src="./css/images/hero-bg.png" class="d-block w-100">
+                    <div class="overlay"></div>
+                    <div class="carousel-caption">
+                    <h1>DELIVERING THE QUALITY <bR>WORK AFFORDABLE</h1>
+                    <h6>power by psdfreebies.com</h6>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget <br>lacinia odio sem nec elit. Aenean eu leo quam</p>
+                
+                    <button class="btn btn-light">View more</button>
+                    <button class="btn btn-light">Contact us</button>
+
+                    </div>
+                </div>
+
+                 <!-- Slide 2 -->
+
+        <div class="carousel-item">
+
+            <img src="./css/images/hero-bg.png" class="d-block w-100">
+
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+
+                <h1>TEMPLATE_1</h1>
+
+                <h4>Made by Saloni Sharma & Tanisha Baghel</h4>
+                <p>
+                    Template conversion using HTML, CSS and BOOTSRAP
+                </p>
+                <button class="btn btn-light">View More</button>
+                <button class="btn btn-light">Contact Us</button>
+            </div>
+        </div>
+
+                
+
+            <!--previous button-->
+             <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#heroSlider"
+                data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+
+            <!-- Next -->
+
+            <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#heroSlider"
+                data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2>Welcome to the YooPin Services</h2>
+                <div class="line"></div>
+                <p class="service-text">
+                    Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue
+                    laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus
+                    posuere velit aliquet.
+                </p>
+                <div class="row mt-5">
+                    <div class="col-md-4 service-box">
+                        <i class="bi bi-pencil-square service-icon"></i>
+                        <h4>FEATURE ONE</h4>
+                        <p>
+                            Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 service-box">
+                        <i class="bi bi-search service-icon"></i>
+                        <h4>FEATURE TWO</h4>
+                        <p>
+                            Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 service-box">
+                        <i class="bi bi-chat-dots service-icon"></i>
+                        <h4>FEATURE THREE</h4>
+                        <p>
+                            Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="welcome-section">
+
+        <span class="quote-left">“</span>
+
+        <div class="welcome-text">
+            Welcome to Fitness Center, where our goal is to
+            transform your life into a healthy one. We are
+            equipped with top notch staff and the best
+            equipment to
+        </div>
+
+        <div class="right-side">
+            <span class="quote-right">”</span>
+            <div class="signature">
+                <span class="ceo">Ceo</span><br>
+                <span class="sign">Signature</span>
+            </div>
+        </div>
+        </section>
+
+        <section class="news-section">
+        <div class="overlay"></div>
+
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="news-title">Latest News and Event</h2>
+                    <div class="title-line"></div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+
+                <div class="col-lg-3 p-0">
+                    <img src="./css/images/news-img.png" class="img-fluid news-img">
+                </div>
+
+                <div class="col-lg-3 news-content text-center">
+                    <h5>AKITA INU DOG</h5>
+
+                    <p>
+                        Cum sociis natoque penatibus et
+                        magnis dis parturient montes,
+                        nascetur ridiculus mus. Lorem
+                        ipsum dolor sit amet, consectetur.
+                    </p>
+
+                    <a href="#" class="btn btn-news">View more</a>
+                </div>
+
+                <div class="col-lg-3 p-0">
+                    <img src="./css/images/news3.png" class="img-fluid news-img">
+                </div>
+
+            </div>
+        </div>
+    </section>
     </body>
 </html>
