@@ -242,7 +242,7 @@ body{
 
 .welcome-section{
     position:relative;
-    height:270px;
+    height:350px;
     background:transparent;
 }
 
@@ -383,6 +383,79 @@ body{
     color:#fff;
 }
 
+.product-section{
+    background: #df4507;
+    padding:80px 0;
+}
+
+
+.product-title{
+    color:#fff;
+    font-size:45px;
+    font-weight:300;
+}
+
+.title-line{
+    height:3px;
+    background:#ffc7a8;
+    margin:12px auto 25px;
+}
+
+.product-para{
+    color:#fff;
+    font-size:15px;
+    line-height:1.8;
+    text-align:center;
+}
+
+.product-section h4{
+    color:#fff;
+    font-size:22px;
+    font-weight:700;
+    margin-left:100px;
+}
+
+.product-section hr{
+    border:1px solid #fff;
+    opacity:1;
+    margin:12px 0 20px;
+    margin-left:100px;
+}
+
+.product-section p{
+    color:#fff;
+    font-size:15px;
+    line-height:1.8;
+    margin-left:100px; 
+}
+
+.btn-product{
+    width:110px;
+    height:38px;
+    background:#fff;
+    color:#444;
+    border-radius:3px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:600;
+    margin-left: 100px;
+}
+
+.btn-product:hover{
+    background:#f2f2f2;
+    color:#000;
+}
+
+.product-img{
+    margin-left: 60px;
+}
+
+.product-section .row p{
+    width:240px;
+}
 
 @font-face {
     font-family: Myriad pro;
